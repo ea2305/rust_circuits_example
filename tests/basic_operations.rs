@@ -1,5 +1,4 @@
-// use crate::{Gate, AndGate, OrGate, NotGate, NandGate, NorGate, XorGate};
-use crate::{Gate, AndGate, OrGate, NotGate, NandGate, NorGate, XorGate};
+use circuits::{Gate, AndGate, OrGate, NotGate, NandGate, NorGate, XorGate};
 
 struct Input{ x: i8, y: i8, output: i8 }
 
